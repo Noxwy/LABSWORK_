@@ -178,7 +178,6 @@ class Chef:
     def cook(self, shop):
         self.dish = Dish()
         self.shop = shop
-#-----------------------------Отсюда менять------------------------------
 
 class Plate(Chef):
 
