@@ -17,9 +17,6 @@ def parse(url):
         return float(sen.replace(',','.'))
 
 class abstarctconvert():
-    """
-    Абстрактный класс, фиксирует интерфейс декодера
-    """
 
     def __init__(self, number):
         pass
