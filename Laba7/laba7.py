@@ -2,7 +2,7 @@ from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 import time
 
-#------------------------------------------Посредник (Ощение с сервисом рандомного числа)---------------------------------
+#------------------------------------------Посредник (Общение с сервисом рандомного числа)---------------------------------
 
 class Message:
     def translate_message(self):
