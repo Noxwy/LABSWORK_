@@ -1,10 +1,6 @@
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 import selenium
-###Доделать в 2021
-a = 1000 # Сумма в валюте
-
-
 
 def parse(url):
         
