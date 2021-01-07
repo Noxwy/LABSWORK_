@@ -79,11 +79,11 @@ class Robot_Site(User):
         if type_ == 'int':
             message = TranslateToInteger(result)
             Translator(message).translate()
-            #self._robot.get_message(translated)
+            
         elif type_ == 'str':
             message = TranslateToString(result)
             Translator(message).translate()
-            #self._robot.get_message(translated)
+            
     def get_message(self, text):
         print(f"Клиент получил сообщение от робота: {text}")
 
@@ -91,7 +91,7 @@ class Robot_Site(User):
 class Client(User):
     def send_message(self, text):
         print(f"Клиент отправил сообщение: {text}")
-        #self.mediator.notify(self, "Seller to Buyer", text)
+        
 
     def get_message(self, text):
         print(f"Робот получил сообщение: {text}")
