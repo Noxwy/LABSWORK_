@@ -65,8 +65,8 @@ class BankoMat:
         print(f"Вас приветствует банкомат {name}")
 
     def payment_of_the_money(self, sum_, name_valut):
-        doc = Out(sum_, data=Converter(name_valut))
-        print(f'{self.name}:', doc.Web_out())
+        money = Out(sum_, data=Converter(name_valut))
+        print(f'{self.name}:', money.Web_out())
 
 
 if __name__ == '__main__':
